@@ -4,159 +4,53 @@
 
 		<meta charset="UTF-8">
 		<title>Harmonogram</title>
-		<link rel="Stylesheet" type="text/css" href="style.css" />
+        <link rel="Stylesheet" type="text/css" href="style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="Script.js"></script>
 	</head>
 	<body>
 
 		<div id = "main">
 
-			<div id ="d1">
+			<div id ="d1" class="first">
 			 
 			</div>
 
-			<div id ="d2">
+			<div id ="d2"class="second">
 			 				 
 			</div>
 
-			<div id ="d3">
+			<div id ="d3" class="first">
 				 
 			</div>
 
-			<div id ="d4">
+			<div id ="d4" class="second">
 					 				 
 			</div>
 
-			<div id ="d5">
+			<div id ="d5" class="first">
 					 				 
 			</div>
 
-			<div id ="d6">
+			<div id ="d6" class="second">
 				 				 
 			</div>
 
-			<div id ="d7">
+			<div id ="d7" class="first">
 			 				 
 			</div>
 
-			<div id ="d8">
+			<div id ="d8" class="second">
 			 				 
 			</div>
 
-			<div id ="d9">
+			<div id ="d9" class="first">
 				 				 
 			</div>
 
-			<div id ="d10">
+			<div id ="d10" class="second">
 				 				 
 			</div>
-
-
-		</div>
-
-		<script>
-			 
-			var obj = [{start: "8:00",
-				stop: "9:30",
-				name: "Matematyka"},
-				{start: "12:00",
-				stop: "13:30",
-				name: "Fizyka"}]
-
-			var obj3 = [{start: "10:00",
-				stop: "11:30",
-				name: "Systemy Wbudowane"},
-				{start: "12:00",
-				stop: "13:30",
-				name: "Techniki Multi"},
-				{start: "16:00",
-				stop: "17:30",
-				name: "Nowoczesne techniki"}
-				]
-
-				var obj4 = [{start: "7:30",
-				stop: "9:30",
-				name: "Metody numer"},
-				{start: "12:15",
-				stop: "13:45",
-				name: "BHP"},
-				{start: "17:45",
-				stop: "19:15",
-				name: "Grafika"}
-				]
-				var obj5 = [{start: "12:00",
-				stop: "18:00",
-				name: "IBM"}
-			 
-				]
-
-				
-		
-			var n = obj.length;   
-				
-			 
-			document.getElementById("d1").innerHTML += '<div style="background-color:  rgb(83, 116, 206)"> PONIEDZIAŁEK </div></br>'; 
-			document.getElementById("d1").innerHTML += '<div style="background-color: rgb(13, 133, 19)"> START: '+obj[0].start+"</div></br>";
-			for (i=0;i<n;i++)
-			{
-			document.getElementById("d1").innerHTML += "<b>"+obj[i].name+"</b></br>"+obj[i].start+" - "+obj[i].stop;	 
-			if(i<n-1)
-			document.getElementById("d1").innerHTML += '<div style="background-color: rgb(13, 133, 19)"> PRZERWA: '+obj[i].stop+" - "+obj[i+1].start +"</div></br>";
-			else
-			document.getElementById("d1").innerHTML += '<div style="background-color: rgb(13, 133, 19)"> STOP: '+obj[n-1].stop+"</div>";
-			} 
-			
-
-
-
-			document.getElementById("d2").innerHTML += '<div style="background-color:  rgb(83, 116, 206)"> WTOREK </div></br>'; 
-			document.getElementById("d2").innerHTML += '<div style="background-color: rgb(13, 133, 19)"> START: '+obj[0].start+"</div></br>";
-			for (i=0;i<n;i++)
-			{
-			document.getElementById("d2").innerHTML += "<b>"+obj[i].name+"</b></br>"+obj[i].start+" - "+obj[i].stop;	 
-			if(i<n-1)
-			document.getElementById("d2").innerHTML += '<div style="background-color: rgb(13, 133, 19)"> PRZERWA: '+obj[i].stop+" - "+obj[i+1].start +"</div></br>";
-			else
-			document.getElementById("d2").innerHTML += '<div style="background-color: rgb(13, 133, 19)"> STOP: '+obj[n-1].stop+"</div>";
-			}
-
-
-			document.getElementById("d3").innerHTML += '<div style="background-color:  rgb(83, 116, 206)"> ŚRODA </div></br>'; 
-			document.getElementById("d3").innerHTML += '<div style="background-color: rgb(13, 133, 19)"> START: '+obj3[0].start+"</div></br>";
-			for (i=0;i<obj3.length;i++)
-			{
-			document.getElementById("d3").innerHTML += "<b>"+obj3[i].name+"</b></br>"+obj3[i].start+" - "+obj3[i].stop;	 
-			if(i<obj3.length-1)
-			document.getElementById("d3").innerHTML += '<div style="background-color: rgb(13, 133, 19)"> PRZERWA: '+obj3[i].stop+" - "+obj3[i+1].start +"</div></br>";
-			else
-			document.getElementById("d3").innerHTML += '<div style="background-color: rgb(13, 133, 19)"> STOP: '+obj3[obj3.length-1].stop+"</div>";
-			}
-
-			document.getElementById("d4").innerHTML += '<div style="background-color:  rgb(83, 116, 206)"> CZWARTEK </div></br>'; 
-			document.getElementById("d4").innerHTML += '<div style="background-color: rgb(13, 133, 19)"> START: '+obj4[0].start+"</div></br>";
-			for (i=0;i<obj4.length;i++)
-			{
-			document.getElementById("d4").innerHTML += "<b>"+obj4[i].name+"</b></br>"+obj4[i].start+" - "+obj4[i].stop;	 
-			if(i<obj4.length-1)
-			document.getElementById("d4").innerHTML += '<div style="background-color: rgb(13, 133, 19)"> PRZERWA: '+obj4[i].stop+" - "+obj4[i+1].start +"</div></br>";
-			else
-			document.getElementById("d4").innerHTML += '<div style="background-color: rgb(13, 133, 19)"> STOP: '+obj4[obj4.length-1].stop+"</div>";
-			}
-
-			document.getElementById("d5").innerHTML += '<div style="background-color:  rgb(83, 116, 206)"> PIĄTEK </div></br>'; 
-			document.getElementById("d5").innerHTML += '<div style="background-color: rgb(13, 133, 19)"> START: '+obj4[0].start+"</div></br>";
-			for (i=0;i<obj5.length;i++)
-			{
-			document.getElementById("d5").innerHTML += "<b>"+obj5[i].name+"</b></br>"+obj5[i].start+" - "+obj5[i].stop;	 
-			if(i<obj5.length-1)
-			document.getElementById("d5").innerHTML += '<div style="background-color: rgb(13, 133, 19)"> PRZERWA: '+obj5[i].stop+" - "+obj5[i+1].start +"</div></br>";
-			else
-			document.getElementById("d5").innerHTML += '<div style="background-color: rgb(13, 133, 19)"> STOP: '+obj5[obj5.length-1].stop+"</div>";
-			}
-			
-
-		</script>
-
-
-		 
+		</div>		 
 	</body>
 </html>
