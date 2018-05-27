@@ -1,0 +1,102 @@
+html, body {
+	background-color: rgb(255, 255, 255);
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+
+#main {
+	width: 100%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	background-color:  rgb(255, 255, 255);
+}
+#d1 {
+	width: 170px;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	background-color: rgb(221, 93, 19);
+	border-style: inset;
+}
+#d2 {
+	width: 170px;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	background-color: rgb(122, 122, 117);
+	border-style: inset;
+}
+#d3 {
+	width: 170px;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	background-color: rgb(221, 93, 19);
+	border-style: inset;
+}
+#d4 {
+	width: 170px;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	background-color: rgb(122, 122, 117);
+	border-style: inset;
+}
+#d5 {
+	width: 170px;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	background-color: rgb(221, 93, 19);
+	border-style: inset;
+}
+#d6 {
+	width: 150px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	background-color: rgb(138, 158, 22);
+}
+#d7 {
+	width: 150px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	background-color: rgb(83, 116, 206);
+}
+#d8 {
+	width: 150px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	background-color: rgb(138, 158, 22);
+}
+#d9 {
+	width: 150px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	background-color: rgb(173, 16, 16);
+}
+#d10 {
+	width: 150px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	background-color: rgb(138, 158, 22);
+}
+ 
