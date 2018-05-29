@@ -3,7 +3,7 @@
         "day":"Poniedziałek",
         "classes":
                 [
-                    {"start":"8:00","stop":"9:30","name":"Matematyka","teacher":"prof.Jan Kowalski","class":"A100"},
+                    {"start":"8:00","stop":"9:30","name":"MatematykaB","teacher":"prof.Jan Kowalski","class":"A100"},
                     {"start":"11:00","stop":"12:30","name":"Fizyka","teacher":"dr.Adam Kowalski","class":"A100"}
     
                 ]
@@ -14,7 +14,7 @@
                 [
                     {"start":"8:00","stop":"9:30","name":"Matematyka","teacher":"prof.Jan Kowalski","class":"A100"},
                     {"start":"11:00","stop":"12:30","name":"Fizyka","teacher":"dr.Adam Kowalski","class":"A100"},
-                    {"start":"16:00","stop":"17:30","name":"Fizyka","teacher":"mgr.Henryk Malinowski-Kraśko","class":"A100"}
+                    {"start":"16:00","stop":"17:30","name":"Fizyka","teacher":"mgr.Henryk Malinowski","class":"A100"}
     
                 ]
     },
