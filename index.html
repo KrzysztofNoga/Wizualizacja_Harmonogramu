@@ -1,130 +1,172 @@
 <!DOCTYPE HTML>
 <html lang="pl">
+
 <head>
 	<meta charset="utf-8" />
 	<title>Harmonogram</title>
-	<meta name="description" content="Harmonogram" />
+	<meta name="description" content="Harmo1nogram" />
 	<meta name="keywords" content="Harmonogram Zajęć" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="Script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+	<script src="Script.js"></script>
 </head>
 
-<body>
-	
+<body  background="background.jpg" bgproperties="fixed ">
+
 	<div id="container">
-	
+
 		<div id="logo">
-            <center>Harmonogram</center>
+			<center>Harmonogram</center>
 		</div>
-		
-	 
-		
-		<div id="topbar">
-			
-			
-			
-			<div class="podziałTopa">Sprawdź Harmonogram</br>
-				<div id="LeftPT">
+
+
+
+		<div class="topbar">
+			<div class="titleTopbar">Wybierz co najmniej jedną grupę i tydzień</div>
+			<div class="selectDiv">
+
 				<div class="select">
-					<select id ="Select1">
-						<option >--Wybierz--</option>
+					<select id="Select11">
+						<option>Wybierz</option>
 						<option value="L3">L3</option>
-					  	<option value="L4">L4</option>
+						<option value="L4">L4</option>
 					</select>
-					<div class="select_arrow">
-					</div>
-				 
-			</div>
-			 
-			<div class="select">
-					<select id="Select2"  >
-						<option>--Wybierz--</option>
-						<option  value="A">A</option>
-						<option  value="B">B</option>>
-					</select>
+
 					<div class="select_arrow"></div>
 				</div>
-				</div>
-					 
-				 
 
-								
-							<div class="Check">
-									<div class="myButton" onclick="ChangeValue()">OK</div>
-								</div>
-			
-					 
-			</div>
-			   
-
-			 <div class="podziałTopaR">Porównaj Harmonogramy</br>
-				<div id="RightPT">
-						<div class="select">
-							<select id="Select3">
-								<option>--Wybierz--</option>
-								<option value="L3">L3</option>
-								<option value="L4">L4</option>
-							</select>
-							
-							<div class="select_arrow"></div>
-							</div>
-							<div class="select">
-									<select id="Select5"  >
-										<option>--Wybierz--</option>
-										<option  value="A">A</option>
-										<option  value="B">B</option>>
-									</select>
-									<div class="select_arrow"></div>
-								</div>
-					</div> 
-					<div id="RightPT1">
-							<div class="select">
-								<select id="Select4">
-									<option>--Wybierz--</option>
-									<option value="L3">L3</option>
-									<option value="L4">L4</option>
-								</select>
-								
-								<div class="select_arrow"></div>
-								</div>
-								<div class="select">
-					<select id="Select6"  >
-						<option>--Wybierz--</option>
-						<option  value="A">A</option>
-						<option  value="B">B</option>>
+				<div class="select">
+					<select id="Select12">
+						<option>Wybierz</option>
+						<option value="A">A</option>
+						<option value="B">B</option>
 					</select>
+
 					<div class="select_arrow"></div>
 				</div>
+			</div>
+			<div class="selectDiv">
+
+				<div class="select">
+					<select id="Select21">
+						<option>Wybierz</option>
+						<option value="L3">L3</option>
+						<option value="L4">L4</option>
+					</select>
+
+					<div class="select_arrow"></div>
 				</div>
-					 
-						
-						 
-								<div class="Check">
-					<div class="myButton" onclick="Compare()">OK</div>
-					</div>
-								 
-							 
-					 
-				
+
+				<div class="select">
+					<select id="Select22">
+						<option>Wybierz</option>
+						<option value="A">A</option>
+						<option value="B">B</option>
+					</select>
+
+					<div class="select_arrow"></div>
+				</div>
+			</div>
+
+			<div class="selectDiv">
+
+				<div class="select">
+					<select id="Select31">
+						<option>Wybierz</option>
+						<option value="L3">L3</option>
+						<option value="L4">L4</option>
+					</select>
+
+					<div class="select_arrow"></div>
+				</div>
+
+				<div class="select">
+					<select id="Select32">
+						<option>Wybierz</option>
+						<option value="A">A</option>
+						<option value="B">B</option>
+					</select>
+
+					<div class="select_arrow"></div>
+				</div>
+			</div>
+
+			<div class="selectDiv">
+
+				<div class="select">
+					<select id="Select41">
+						<option>Wybierz</option>
+						<option value="L3">L3</option>
+						<option value="L4">L4</option>
+					</select>
+
+					<div class="select_arrow"></div>
+				</div>
+
+				<div class="select">
+					<select id="Select42">
+						<option>Wybierz</option>
+						<option value="A">A</option>
+						<option value="B">B</option>
+					</select>
+
+					<div class="select_arrow"></div>
+				</div>
+			</div>
+
+			<div class="selectDiv">
+
+				<div class="select">
+					<select id="Select51">
+						<option>Wybierz</option>
+						<option value="L3">L3</option>
+						<option value="L4">L4</option>
+					</select>
+
+					<div class="select_arrow"></div>
+				</div>
+
+				<div class="select">
+					<select id="Select52">
+						<option>Wybierz</option>
+						<option value="A">A</option>
+						<option value="B">B</option>
+					</select>
+
+					<div class="select_arrow"></div>
+				</div>
+			</div>
 			
-			</div>
-			 <div style="clear:both;"></div>
-			</div>
+			
 		 
-		
-	 
-		
-		<div id="content">
-				Żeby sprawdzić harmonogram pojedynczej grupy wybierz grupę i tydzień
-                 
-        </div>
-		<div id="footer">
-			  Techniki mulitmedialne 2018r. &copy; Wszelkie prawa zastrzeżone
+
+					<div class="Check">
+							<div id="OK"   class="myButton"   >OK</div>
+					</div>
+		 
+		 
+
+
+
+
+
+
+			<div style="clear:both;"></div>
 		</div>
-	
-    </div>	
+
+
+
+
+		<div id="content">
+			Żeby sprawdzić harmonogram pojedynczej grupy wybierz grupę i tydzień
+
+		</div>
+		<div id="footer">
+			Techniki mulitmedialne 2018r. &copy; Wszelkie prawa zastrzeżone
+		</div>
+
+	</div>
 </body>
+
 </html>

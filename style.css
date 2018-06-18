@@ -17,7 +17,7 @@ body
 	letter-spacing: 3px;
 	font-weight: 900;
 }
-#topbar
+.topbar
 {
 	background-color: #419ddb;
 	color: white;
@@ -139,6 +139,19 @@ li a:hover {
     background-color: #303030;
 	text-align: center; 
 }
+#NAMEDAY
+{
+	color: white;
+	padding: 2px;
+	padding-bottom: 3px;
+	font-size: 30px;
+	letter-spacing: 3px;
+    font-weight: 900;
+    background-color: #303030;
+	text-align: center;
+	border-bottom: 5px solid #dedede;
+	
+}
 .podziałTopa
 {	float: left;
 	width: 535px;
@@ -162,7 +175,7 @@ li a:hover {
     position: relative;
     display: inline-block;
     margin-bottom: 15px;
-    width: 150px;
+    width: 100px;
 }    .select select {
         font-family: 'Arial';
         display: inline-block;
@@ -178,7 +191,7 @@ li a:hover {
         -webkit-appearance: none;
 		-moz-appearance: none;
 		text-align: center;
-		font-weight:900;
+		font-weight:500;
     }
         .select select::-ms-expand {
             display: none;
@@ -231,7 +244,7 @@ li a:hover {
 		display: inline-block;
 		font-size: 15px;
 		width: 100%;
-		height: 16px;
+		height: 18px;
         cursor: pointer;
         padding: 10px 15px;
         outline: 0;
@@ -252,7 +265,8 @@ li a:hover {
 	top:1px;
 }
 .Check
-{		 
+{		float:left;
+		padding-left: 60px;
 		position: relative;
     	display: inline-block;
 		margin-bottom: 15px;
@@ -274,6 +288,18 @@ li a:hover {
 	 
 	float: left;
 	border-left: 5px dotted white;
-}    
-    
-  
+}
+.selectDiv
+{	width: 230px;
+	float: left;
+	height: 50px;
+	text-align: center;
+	border-right: 5px dotted white;
+}
+.titleTopbar
+{
+	text-align: center;
+	height: 50px;
+}
+
+ 
