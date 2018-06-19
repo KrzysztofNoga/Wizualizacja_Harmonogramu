@@ -152,25 +152,6 @@ li a:hover {
 	border-bottom: 5px solid #dedede;
 	
 }
-.podziałTopa
-{	float: left;
-	width: 535px;
-	height: 100px;
-	text-align: center;
-	border-right: 5px dotted white;
-	 
-	 
-}
-.podziałTopaR
-{	float: left;
-	width: 835px;
-	height: 100px;
-	text-align: center;
-	 
-	 
-	 
-}
-
 .select {
     position: relative;
     display: inline-block;
@@ -221,23 +202,6 @@ li a:hover {
 .select select:disabled ~ .select_arrow {
     border-top-color: #CCCCCC;
 }
-.PodzialRightTop
-{	width: 150px;
-	padding-left: 10px;
-	padding-right: 10px;
-	float: left;
-	
-	 
-}
-.PodzialLeftTop
-{	width: 240px;
-	padding-left: 10px;
-	padding-right: 10px;
-	float: left;
-	
-	
-	 
-}
 .myButton 
 {		
 	    font-family: 'Arial';
@@ -273,21 +237,6 @@ li a:hover {
 		 
     	width: 50px;
 
-}
-#LeftPT{
-	padding-left: 30px;
-	float: left;
-}
-#RightPT{
-	padding-left: 30px;
-	padding-right: 30px;
-	float: left;
-}
-#RightPT1{
-	padding-left: 30px;
-	 
-	float: left;
-	border-left: 5px dotted white;
 }
 .selectDiv
 {	width: 230px;

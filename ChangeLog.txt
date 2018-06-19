@@ -1,0 +1,11 @@
+Commits on Apr 18, 2018
+1.Stworzenie projektu
+Commits on May 27, 2018
+2.Dodanie szablonu strony
+3.Pobieranie danych z JSONA 
+Commits on May 29, 2018
+4.Poprawki wizualne, dopisanie kilku funckcji w celu usprawnienia programu
+Commits on Jun 18, 2018
+5.Rozszerzenie funkcjonalnoœci projektu, mo¿liwoœæ porównania 5 grup
+6.Dodanie read-me i dokumentacji
+

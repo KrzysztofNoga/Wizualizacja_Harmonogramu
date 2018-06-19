@@ -379,6 +379,11 @@ var ExecuteView = function (flag) {
 
 window.onload = function () {
     document.getElementById("OK").onclick = function fun() {
+        if(GetHowManySelected()== 0)
+        {
+            document.getElementById("content").innerHTML = "Wybierz co najmniej jedną grupę i tydzień"
+        }
+        else
         ExecuteView(1);
     }
 };
